@@ -66,10 +66,10 @@
         <div id="info_box_voice">
             <span class="icon" onclick="showVoiceInfo()"></span>
 
-            <h3>Voice Commands</h3>
+            <h3>Comandos de Voz</h3>
             <div class="info_text">Voice commands allow you to control the cheat sheet via your voice. Once you hit enable, the cheat sheet will begin listening to your voice commands and will persist between resets until you disable it. It will by deafult read from your default microphone, so ensure that it is set correctly. The voice recognition will continue to work even if the page is not in focus and you are using the same microphone in-game.</div>
             <div class="info_block" style="margin-top: 10px;">
-                <strong>Evidence:</strong>
+                <strong>Evidencias:</strong>
                 <ul>
                     <li>"evidence &lt;evidence&gt;" -> Mark as a found evidence</li>
                     <li>"evidence not &lt;evidence&gt;" -> Mark as not an evidence</li>
@@ -298,10 +298,10 @@
                     Timers
                 </div>
                 <div class="timers">
-                    <div class="modifier_smudge_timer yfont white" onclick="toggle_timer()">Smudge Timer</div>
+                    <div class="modifier_smudge_timer yfont white" onclick="toggle_timer()">Timer de Incienso</div>
                     <div class="line_labels" onclick="toggle_timer();send_timer();">
-                        <div class="spirit_line_label">Spirit</div>
-                        <div class="demon_line_label">Demon</div>
+                        <div class="spirit_line_label">Espíritu</div>
+                        <div class="demon_line_label">Demonio</div>
                     </div>
                     <div id="progress" onclick="toggle_timer();send_timer();">
                         <img src="imgs/play.png" id="play_button" class="play_button">
@@ -315,11 +315,11 @@
                     <div id="time_left" onclick="toggle_timer();send_timer();">
                         <span id="minute">03</span>:<span id="second">00</span>
                     </div>
-                    <div class="modifier_note_2" onclick="toggle_timer();send_timer();">(Press 'T' to start/stop)</div>
+                    <div class="modifier_note_2" onclick="toggle_timer();send_timer();">(Presiona 'T' para iniciar/detener)</div>
                     <hr>
-                    <div class="modifier_smudge_timer yfont white" onclick="toggle_cooldown_timer()">Cooldown Timer</div>
+                    <div class="modifier_smudge_timer yfont white" onclick="toggle_cooldown_timer()">Timer de Cooldown</div>
                     <div class="line_labels" onclick="toggle_cooldown_timer();send_cooldown_timer();">
-                        <div class="cooldown_demon_line_label">Demon</div>
+                        <div class="cooldown_demon_line_label">Demonio</div>
                     </div>
                     <div id="cooldownProgress" onclick="toggle_cooldown_timer();send_cooldown_timer();">
                         <img src="imgs/play.png" id="play_cooldown_button" class="play_button">
@@ -338,7 +338,7 @@
                     Tools
                 </div>
                 <div class="modifier">
-                    <div class="modifier_ghost_speed yfont white">Ghost Speed</div>
+                    <div class="modifier_ghost_speed yfont white">Velocidad del Fantasma</div>
                     <input type="range" id="ghost_modifier_speed" name="volume" 
                         min="0" max="4" step="1" default="2" onchange="setTempo();bpm_calc(true);saveSettings();send_state();">
                     <div class="modifier_ghost_speed_labels">
@@ -356,21 +356,21 @@
                         </label>
                         <img src="imgs/metronome.png">
                     </div>
-                    <div class="modifier_note">(Click &#128266; to hear speed)</div>
+                    <div class="modifier_note">(Click &#128266; para escuchar velocidad)</div>
                     <hr>
                     <div class="modifier_bpm_finder yfont white">BPM Finder</div>
                     <button id="tap" class="yfont" onclick="bpm_tap()">
                         <div id="input_bpm">0<br>bpm</div>
-                        <div>Tap<div class="tap_note">(or press 'F')</div></div>
+                        <div>Click<div class="tap_note">(o presiona 'F')</div></div>
                         <div id="input_speed">0<br>m/s</div>
                     </button>
                     <div id="tap_viz"></div>
-                    <div class="modifier_note_2">(Press 'R' to reset)</div>
+                    <div class="modifier_note_2">(Presiona 'R' para reiniciar)</div>
                 </div>
             </div>
             <div id="filter-content" class="filter-content">
                 <div class="evidence_title yfont white">
-                    Evidence <select name="num_evidence" id="num_evidence" class="num_evidence" onchange="filter();flashMode();saveSettings();">
+                    Evidencia <select name="num_evidence" id="num_evidence" class="num_evidence" onchange="filter();flashMode();saveSettings();">
                         <option value="3">3</option>
                         <option value="2">2</option>
                         <option value="1">1</option>
@@ -383,12 +383,12 @@
                 </div>
 
                 <div class="speed_title yfont white">
-                    Speed
+                    Velocidad
                 </div>
                 <div class="speed">
                     <button id="Slow" class="tricheck white" name="speed" onclick="dualstate(this)" value="Slow">
                         <div id="checkbox" class="neutral"><span class="icon"></span></div>
-                        <div class="label">Slow</div>
+                        <div class="label">Lento</div>
                     </button>
                     <button id="Normal" class="tricheck white" name="speed" onclick="dualstate(this)" value="Normal">
                         <div id="checkbox" class="neutral"><span class="icon"></span></div>
@@ -396,16 +396,16 @@
                     </button>
                     <button id="Fast" class="tricheck white" name="speed" onclick="dualstate(this)" value="Fast">
                         <div id="checkbox" class="neutral"><span class="icon"></span></div>
-                        <div class="label">Fast</div>
+                        <div class="label">Rápido</div>
                     </button>
                 </div>
                 <div class="hunt_sanity_title yfont white">
-                    Hunt Sanity
+                    Cordura de Caza
                 </div>
                 <div class="hunt_sanity">
                     <button id="Late" class="tricheck white" name="hunt-sanity" onclick="dualstate(this,false,true)" value="Late">
                         <div id="checkbox" class="neutral"><span class="icon"></span></div>
-                        <div class="label">Late <span class="hunt_sanity_num">(&lt;40%)</span></div>
+                        <div class="label">Tarde <span class="hunt_sanity_num">(&lt;40%)</span></div>
                     </button>
                     <button id="Average" class="tricheck white" name="hunt-sanity" onclick="dualstate(this,false,true)" value="Average">
                         <div id="checkbox" class="neutral"><span class="icon"></span></div>
@@ -413,18 +413,18 @@
                     </button>
                     <button id="Early" class="tricheck white" name="hunt-sanity" onclick="dualstate(this,false,true)" value="Early">
                         <div id="checkbox" class="neutral"><span class="icon"></span></div>
-                        <div class="label">Early <span class="hunt_sanity_num">(>50%)</span></div>
+                        <div class="label">Pronto <span class="hunt_sanity_num">(>50%)</span></div>
                     </button>
                     <button id="VeryEarly" class="tricheck white" name="hunt-sanity" onclick="dualstate(this,false,true)" value="VeryEarly">
                         <div id="checkbox" class="neutral"><span class="icon"></span></div>
-                        <div class="label">Very Early <span class="hunt_sanity_num">(>75%)</span></div>
+                        <div class="label">Muy Pronto <span class="hunt_sanity_num">(>75%)</span></div>
                     </button>
                 </div>
 
             </div>
             <div id="active-users"><span id="current-version-label"></span> | <span id="active-users-label">Active Users: -</span></div>
             <div class="copyright" onclick="showInfo()"><img class="question" src="imgs/question.png"> Info / Copyright</div>
-            <button id="reset" class="yfont" onclick="reset()">Reset</button>
+            <button id="reset" class="yfont" onclick="reset()">Reiniciar</button>
 
         </div>
 

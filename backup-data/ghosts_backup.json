@@ -1,1 +1,506 @@
-{"ghosts":[{"ghost":"Spirit","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"50%","hunt_sanity_low":"50%","hunt_sanity_high":"50%","evidence":["EMF 5","Spirit Box","Writing"],"nightmare_evidence":null,"behavior":["<Tells>","Incensing the ghost will prevent a hunt for 180s instead of the normal 90s"]},{"ghost":"Wraith","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"50%","hunt_sanity_low":"50%","hunt_sanity_high":"50%","evidence":["EMF 5","Spirit Box","DOTs"],"nightmare_evidence":null,"behavior":["<Tells>","Ghost will never step in salt of any tier","Will not be slowed down by tier 3 salt during a hunt","<Behaviors>","Can teleport to random players, leaving EMF 2 or EMF 5"]},{"ghost":"Phantom","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"50%","hunt_sanity_low":"50%","hunt_sanity_high":"50%","evidence":["Spirit Box","Ultraviolet","DOTs"],"nightmare_evidence":null,"behavior":["<Tells>","Does not appear in ghost photo","During an event or during DOTs state, taking a photo will cause the ghost to disappear","Less visible during hunts (See 'Guides' tab)","<Behaviors>","Can roam to a random player, leaving EMF 2"]},{"ghost":"Poltergeist","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"50%","hunt_sanity_low":"50%","hunt_sanity_high":"50%","evidence":["Spirit Box","Ultraviolet","Writing"],"nightmare_evidence":null,"behavior":["<Tells>","Can throw multiple objects at once, decreasing player sanity 2% per item thrown","Will throw an item every 0.5s during a hunt","<Behaviors>","Higher chance to throw & interact with objects","Can throw objects faster and further"]},{"ghost":"Banshee","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"50%","hunt_sanity_low":"50%","hunt_sanity_high":"50%","evidence":["Ultraviolet","Ghost Orbs","DOTs"],"nightmare_evidence":null,"behavior":["<Tells>","Banshee scream through paramic  <span class=\"sound\" onClick=\"playSound('https://zero-network.net/phasmophobia/static/assets/banshee_scream.wav')\">🔊</span>","<Behaviors>","Will only go after its target during a hunt (unless target is outside)","Will roam toward its target, without leaving EMF 2","Will attempt to roam toward their target while in DOTs state","Prefers singing ghost events","<Hunt Sanity>","Hunts when target's sanity is 50% or lower (even if target is outside)"]},{"ghost":"Jinn","min_speed":1.7,"max_speed":2.5,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"50%","hunt_sanity_low":"50%","hunt_sanity_high":"50%","evidence":["EMF 5","Ultraviolet","Freezing"],"nightmare_evidence":null,"behavior":["<Tells>","Ability will drop nearby players' sanity by 25% with EMF 2 at the breaker","<Behaviors>","Can not turn off fuse box","<Hunt Speed>","2.5m/s when fuse box is on and ghost is further than 3m from a seen player, 1.7m/s otherwise"]},{"ghost":"Mare","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"60%","hunt_sanity_low":"40%","hunt_sanity_high":"60%","evidence":["Spirit Box","Ghost Orbs","Writing"],"nightmare_evidence":null,"behavior":["<Tells>","Ability to immediately turn off a light that a player has turned on","Cannot turn on lights (keyboard and TV excluded)","<Behaviors>","More likely to turn off and bust lights","<Hunt Sanity>","60% when lights are off in the ghost's current room, 40% when on"]},{"ghost":"Revenant","min_speed":1.0,"max_speed":3.0,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"50%","hunt_sanity_low":"50%","hunt_sanity_high":"50%","evidence":["Ghost Orbs","Writing","Freezing"],"nightmare_evidence":null,"behavior":["<Hunt Speed>","3.0m/s immediately once the player has been sensed (equipment, voice, or line of sight) and until ghost has reached the players last known location where it will gradually slow down to 1m/s"]},{"ghost":"Shade","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"35%","hunt_sanity_low":"35%","hunt_sanity_high":"35%","evidence":["EMF 5","Writing","Freezing"],"nightmare_evidence":null,"behavior":["<Tells>","Does not do interactions that result in EMF 2, 3, or 5 with someone in the room (except writing)","Will not hunt with someone in the room","<Behaviors>","More ghost events at lower sanity","Less likely to appear as full ghost model","Has a chance to appear as a shadow if summoned from music box or summoning circle"]},{"ghost":"Demon","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"70%","hunt_sanity_low":"70%","hunt_sanity_high":"100%","evidence":["Ultraviolet","Writing","Freezing"],"nightmare_evidence":null,"behavior":["<Tells>","Incensing the ghost will prevent a hunt for 60s instead of the normal 90s","20s minimum hunt cool-down (normal is 25s)","<Behaviors>","Crucifix range increased by 50% per tier (4.5m, 6m, 7.5m respectively)","<Hunt Sanity>","Ability to hunt at any sanity, hunts normally at 70%"]},{"ghost":"Yurei","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"50%","hunt_sanity_low":"50%","hunt_sanity_high":"50%","evidence":["Ghost Orbs","Freezing","DOTs"],"nightmare_evidence":null,"behavior":["<Tells>","Can shut a door and drop sanity of nearby players by 15% <b><i>if</i></b> a door is in the room","Only ghost that can close an exit door outside of a hunt or ghost event","<Behaviors>","Incense traps ghost in its room and prevents wandering for 60 seconds"]},{"ghost":"Oni","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"50%","hunt_sanity_low":"50%","hunt_sanity_high":"50%","evidence":["EMF 5","Freezing","DOTs"],"nightmare_evidence":null,"behavior":["<Tells>","Drains 20% on ghost events, instead of 10%","Will <b><i>not</i></b> do 'ghost mist' event","More visible during hunts (See 'Guides' tab)","<Behaviors>","More active around multiple people"]},{"ghost":"Yokai","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"80%","hunt_sanity_low":"50%","hunt_sanity_high":"80%","evidence":["Spirit Box","Ghost Orbs","DOTs"],"nightmare_evidence":null,"behavior":["<Tells>","Hearing/electronic distance is less than 2.5m during hunts","<Behaviors>","More active when talked to","<Hunt Sanity>","Can hunt up to 80% sanity when talking near it, hunts normally at 50%"]},{"ghost":"Hantu","min_speed":1.44,"max_speed":2.7,"alt_speed":null,"speed_is_range":1,"hunt_sanity":"50%","hunt_sanity_low":"50%","hunt_sanity_high":"50%","evidence":["Ultraviolet","Ghost Orbs","Freezing"],"nightmare_evidence":"Freezing","behavior":["<Tells>","Ghost can have visible freezing breath in any room during hunts with the breaker off","Cannot turn breaker on","<Behaviors>","High chance to turn off breaker","<Hunt Speed>","Faster in colder temperatures, <b>does not speed up in line-of-sight</b>","<Evidence>","Guaranteed freezing on Nightmare / Insanity mode"]},{"ghost":"Goryo","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"50%","hunt_sanity_low":"50%","hunt_sanity_high":"50%","evidence":["EMF 5","Ultraviolet","DOTs"],"nightmare_evidence":"DOTs","behavior":["<Tells>","DOTs only appear on camera and will rarely show if player is in the same room","<Behaviors>","Can not change favorite rooms","Does not roam long distances","<Evidence>","Guaranteed DOTs on Nightmare / Insanity mode"]},{"ghost":"Myling","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"50%","hunt_sanity_low":"50%","hunt_sanity_high":"50%","evidence":["EMF 5","Ultraviolet","Writing"],"nightmare_evidence":null,"behavior":["<Tells>","Footsteps and vocals cannot be heard more than 12m away during hunts (normal is 20m)","<Behaviors>","Lots of paranormal sounds through paramic"]},{"ghost":"Onryo","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"60%","hunt_sanity_low":"60%","hunt_sanity_high":"100%","evidence":["Spirit Box","Ghost Orbs","Freezing"],"nightmare_evidence":null,"behavior":["<Tells>","Will hunt at any sanity after extinguishing every 3rd flame if no other flames or crucifix will prevent it","<Behaviors>","Flames act like crucifixes, will blow out a flame if it tries to hunt (within 4m)","More likely to extinguish a flame, the more players that are dead","<Hunt Sanity>","Can hunt at any sanity using its ability, hunts normally at 60%"]},{"ghost":"The Twins","min_speed":1.53,"max_speed":1.87,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"50%","hunt_sanity_low":"50%","hunt_sanity_high":"50%","evidence":["EMF 5","Spirit Box","Freezing"],"nightmare_evidence":null,"behavior":["<Tells>","Often do interactions at the same time","<Behaviors>","Decoy only does interactions/EMF, no evidence or sensors","<Hunt Speed>","Either 1.53m/s or 1.87m/s depending on which 'twin' hunted"]},{"ghost":"Raiju","min_speed":1.7,"max_speed":2.5,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"65%","hunt_sanity_low":"50%","hunt_sanity_high":"65%","evidence":["EMF 5","Ghost Orbs","DOTs"],"nightmare_evidence":null,"behavior":["<Tells>","During a hunt, flickers electronics at 15m range instead of 10m","<Hunt Sanity>","Can hunt at 65% sanity near active player equipment","<Hunt Speed>","2.5m/s near active player equipment, 1.7m/s otherwise","<Evidence>","EMF 5 + Ghost Orbs on Nightmare mode confirms Raiju"]},{"ghost":"Obake","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"50%","hunt_sanity_low":"50%","hunt_sanity_high":"50%","evidence":["EMF 5","Ultraviolet","Ghost Orbs"],"nightmare_evidence":"Ultraviolet","behavior":["<Tells>","Special 6 fingered fingerprints","Has a 6.66% chance to change ghost models when flickering during hunts (guaranteed once per hunt, returns to original model)","Does not always leave ultraviolet evidence","Can make ultraviolet evidence disappear earlier than 2 minutes","<Evidence>","Guaranteed ultraviolet on Nightmare / Insanity mode"]},{"ghost":"The Mimic","min_speed":1.7,"max_speed":null,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"50%","hunt_sanity_low":"35%","hunt_sanity_high":"100%","evidence":["Spirit Box","Ultraviolet","Freezing"],"nightmare_evidence":null,"behavior":["<Tells>","Always shows orbs as additional fake evidence (4th evidence) even in 0 evidence","Copies the behavior and traits of other ghosts","Changes ghost behavior every 30 seconds to 2 minutes","<Hunt Sanity>","Copies behavior of currently mimicked ghost","<Hunt Speed>","Copies speed of currently mimicked ghost"]},{"ghost":"Moroi","min_speed":1.5,"max_speed":2.25,"alt_speed":3.71,"speed_is_range":1,"hunt_sanity":"50%","hunt_sanity_low":"50%","hunt_sanity_high":"50%","evidence":["Spirit Box","Writing","Freezing"],"nightmare_evidence":"Spirit Box","behavior":["<Tells>","Places curse on player when heard through paramic or spirit box, curse drops sanity 2x as fast","Incense blindness duration increased by 50% per tier (7.5s, 9s, 10.5s respectively)","<Hunt Speed>","Faster when average sanity is lower, can reach a speed of 3.71 m/s when in line of sight","<Evidence>","Guaranteed spirit box on Nightmare / Insanity mode"]},{"ghost":"Deogen","min_speed":0.4,"max_speed":3.0,"alt_speed":null,"speed_is_range":0,"hunt_sanity":"40%","hunt_sanity_low":"40%","hunt_sanity_high":"40%","evidence":["Spirit Box","Writing","DOTs"],"nightmare_evidence":"Spirit Box","behavior":["<Tells>","Heavy breathing through spirit box when within 1m of the ghost  <span class=\"sound\" onClick=\"playSound('https://zero-network.net/phasmophobia/static/assets/deogen_breathing.wav')\">🔊</span>","Cannot hide from a Deogen","<Behaviors>","Increased chance for DOTs / Writing","<Hunt Speed>","3.0m/s when far away, drops to 0.4m/s when close to the player","<Evidence>","Guaranteed spirit box on Nightmare / Insanity mode"]},{"ghost":"Thaye","min_speed":1.0,"max_speed":2.75,"alt_speed":null,"speed_is_range":1,"hunt_sanity":"75%","hunt_sanity_low":"35%","hunt_sanity_high":"75%","evidence":["Ghost Orbs","Writing","DOTs"],"nightmare_evidence":null,"behavior":["<Behaviors>","Ghost ages over time (every 1-2 minutes) while player is nearby","More active when younger","Increased chance for DOTs / Writing","<Hunt Sanity>","Hunts at 75% at its youngest, 15% at its oldest","<Hunt Speed>","2.75m/s at its youngest, 1.0m/s at its oldest <b>does not speed up in line-of-sight</b>","<Evidence>","Writing + DOTs on Nightmare mode confirms Thaye"]}],"version":"b0.9.0.8","evidence":["EMF 5","DOTs","Ultraviolet","Freezing","Ghost Orbs","Writing","Spirit Box"]}
+{
+  "ghosts": [
+    {
+      "ghost": "Espiritu",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "50%",
+      "evidence": ["EMF 5", "Spirit Box", "Escritura"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "Usar incienso evita una caza por 180 segundos en lugar de los 90 segundos normales"
+      ]
+    },
+    {
+      "ghost": "Espectro",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "50%",
+      "evidence": ["EMF 5", "Spirit Box", "DOTs"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "No pisa la sal de ningún tier",
+        "No es ralentizado por la sal de tier 3 durante las cacerías",
+        "<Behaviors>",
+        "Se puede teletransportar un jugador al azar, dejando EMF 2 o EMF 5"
+      ]
+    },
+    {
+      "ghost": "Ente",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "50%",
+      "evidence": ["Spirit Box", "Ultravioleta", "DOTs"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "No aparece en la foto del fantasma",
+        "Durante un evento o estado DOTs, tomar una foto del fantasma lo hará desaparecer",
+        "Menos visible en las cacerías (Ver pestaña de 'Guias')",
+        "<Behaviors>",
+        "Can roam to a random player, leaving EMF 2"
+      ]
+    },
+    {
+      "ghost": "Poltergeist",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "50%",
+      "evidence": ["Spirit Box", "Ultravioleta", "Escritura"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "Puede tirar múltiples objetos a la vez, bajando la cordura del jugador 2% por objeto tirado",
+        "Tira un objeto cada 0.5s durante una caza",
+        "<Behaviors>",
+        "Altas probabilidades de tirar e interactuar con objetos",
+        "Puede tirar los objetos más rápido y más lejos"
+      ]
+    },
+    {
+      "ghost": "Banshee",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "50%",
+      "evidence": ["Ultravioleta", "Orbes", "DOTs"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "Grita por el micrófono parabólico  <span class=\"sound\" onClick=\"playSound('https://zero-network.net/phasmophobia/static/assets/banshee_scream.wav')\">🔊</span>",
+        "<Behaviors>",
+        "Solo persigue a su objetivo durante una cacería (a no ser de que el objetivo esté fuera)",
+        "Se mueve hacia su objetivo, sin dejar EMF 2",
+        "Intentará moverse hacia su objetivo mientras está en estado DOTs",
+        "Prefiere eventos paranormales de canto",
+        "<Hunt Sanity>",
+        "Caza cuando la cordura de su objetivo es 50% o menos (incluso si su objetivo está fuera)"
+      ]
+    },
+    {
+      "ghost": "Jinn",
+      "min_speed": 1.7,
+      "max_speed": 2.5,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "50%",
+      "evidence": ["EMF 5", "Ultravioleta", "Temperaturas Heladas"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "Habilidad de bajar la cordura un 25% con EMF 2 en la caja de fusibles",
+        "<Behaviors>",
+        "No puede cortar la luz",
+        "<Hunt Speed>",
+        "2.5m/s cuando no está cortada la luz y el fantasma se encuentra a más de 3m de un jugador que haya visto, 1.7m/s en el resto de casos"
+      ]
+    },
+    {
+      "ghost": "Pesadilla",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "60%",
+      "hunt_sanity_low": "40%",
+      "hunt_sanity_high": "60%",
+      "evidence": ["Spirit Box", "Orbes", "Escritura"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "Habilidad de apagar la luz que haya prendido un jugador inmediatamente",
+        "No puede encender las luces (excluyendo el teclado y la televisión)",
+        "<Behaviors>",
+        "Es más probable que apague y rompa luces",
+        "<Hunt Sanity>",
+        "60% cuando las luces están apagadas en la habitación del fantasma, 40% cuando están prendidas"
+      ]
+    },
+    {
+      "ghost": "Revenant",
+      "min_speed": 1.0,
+      "max_speed": 3.0,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "50%",
+      "evidence": ["Orbes", "Escritura", "Temperaturas Heladas"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Hunt Speed>",
+        "3.0m/s inmediatamente el fantasma haya sentido al jugador (equipamiento, voz o línea de visión) y hasta que haya llegado a la última ubicación conocida del jugador, donde gradualmente reducirá hasta 1m/s"
+      ]
+    },
+    {
+      "ghost": "Sombra",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "35%",
+      "hunt_sanity_low": "35%",
+      "hunt_sanity_high": "35%",
+      "evidence": ["EMF 5", "Escritura", "Temperaturas Heladas"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "No realiza interacciones que resulten en EMF 2, 3, or 5 si hay alguien en la habitación (excepto Escritura)",
+        "No iniciará una cacería si hay alguien en la habitación",
+        "<Behaviors>",
+        "Más eventos paranormales a menor cordura",
+        "Menos probable que aparezca como un modelo de fantasma completo",
+        "Tiene chances de aparecer como sombra si se invoca con la Caja de Música o el Círculo de Invocación"
+      ]
+    },
+    {
+      "ghost": "Demonio",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "70%",
+      "hunt_sanity_low": "70%",
+      "hunt_sanity_high": "100%",
+      "evidence": ["Ultravioleta", "Escritura", "Temperaturas Heladas"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "Usar incienso evita una caza por 60 segundos en lugar de los 90 segundos normales",
+        "Mínimo de 20s de cooldown entre cacerías (lo normal es 25s)",
+        "<Behaviors>",
+        "El rango del Crucifijo es incrementado un 50% por tier (4.5m, 6m, 7.5m respectivamente)",
+        "<Hunt Sanity>",
+        "Habilidad de cazar a cualquier nivel de cordura, caza normalmente al 70%"
+      ]
+    },
+    {
+      "ghost": "Yurei",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "50%",
+      "evidence": ["Orbes", "Temperaturas Heladas", "DOTs"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "Puede cerrar una puerta y bajar la cordura de los jugadores cercanos un 15% <b><i>si</i></b> hay una puerta en la habitación",
+        "Es el único fantasma que puede cerrar la puerta de salida completamente sin que sea un evento paranormal ni una cacería",
+        "<Behaviors>",
+        "El Incienso atrapa al fantasma en su habitación y previene que merodee por 60 seconds"
+      ]
+    },
+    {
+      "ghost": "Oni",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "50%",
+      "evidence": ["EMF 5", "Temperaturas Heladas", "DOTs"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "Baja 20% de cordura en los eventos paranormales, en lugar de 10%",
+        "<b><i>No</i></b> te 'sopla'",
+        "Más visible durante las cacerías (Ver pestaña de 'Guias')",
+        "<Behaviors>",
+        "Más activo cerca de varias personas"
+      ]
+    },
+    {
+      "ghost": "Yokai",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "80%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "80%",
+      "evidence": ["Spirit Box", "Orbes", "DOTs"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "La distancia auditiva/electrónica es menor a 2.5 metros durante las cacerías.",
+        "<Behaviors>",
+        "Más activo cuando le hablan",
+        "<Hunt Sanity>",
+        "Puede cazar desde 80% de cordura cuando se habla cerca de él, caza normalmente al 50%"
+      ]
+    },
+    {
+      "ghost": "Hantu",
+      "min_speed": 1.44,
+      "max_speed": 2.7,
+      "alt_speed": null,
+      "speed_is_range": 1,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "50%",
+      "evidence": ["Ultravioleta", "Orbes", "Temperaturas Heladas"],
+      "nightmare_evidence": "Temperaturas Heladas",
+      "behavior": [
+        "<Tells>",
+        "El fantasma puede tener visible aliento de bajas temperaturas en cualquier habitación durante las cacerías con la luz cortada",
+        "No puede prender la caja de fusibles",
+        "<Behaviors>",
+        "Altas probabilidades de que corte la luz",
+        "<Hunt Speed>",
+        "Más rápido en temperaturas más frías, <b>no acelera al estar a la vista</b>",
+        "<Evidence>",
+        "Temperaturas Heladas garantizadas en modo Pesadilla / Locura"
+      ]
+    },
+    {
+      "ghost": "Goryo",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "50%",
+      "evidence": ["EMF 5", "Ultravioleta", "DOTs"],
+      "nightmare_evidence": "DOTs",
+      "behavior": [
+        "<Tells>",
+        "DOTs solo aparece en cámara y raramente aparecerán si el jugador está en la misma habitación",
+        "<Behaviors>",
+        "No cambia su habitación favorita",
+        "No se mueve largas distancias",
+        "<Evidence>",
+        " DOTs garantizados en modo Pesadilla / Locura"
+      ]
+    },
+    {
+      "ghost": "Myling",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "50%",
+      "evidence": ["EMF 5", "Ultravioleta", "Escritura"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "Pisadas y voces no se escuchan a más de 12m durante las cacerías (lo normal son 20m)",
+        "<Behaviors>",
+        "Muchos sonidos paranormales a través del micrófono parabólico"
+      ]
+    },
+    {
+      "ghost": "Onryo",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "60%",
+      "hunt_sanity_low": "60%",
+      "hunt_sanity_high": "100%",
+      "evidence": ["Spirit Box", "Orbes", "Temperaturas Heladas"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "Caza a cualquier nivel de cordura cada 3ra llama que apague si no hay llamas o crucifijo que lo evite",
+        "<Behaviors>",
+        "Llamas actúan como crucifijos, apaga una si intenta atacar (en un radio de 4m)",
+        "Es más probable que apague una llama cuantos más jugadores muertos haya",
+        "<Hunt Sanity>",
+        "Puede cazar a cualquier nivel de cordura usando su habilidad, caza normalmente con 60% de cordura"
+      ]
+    },
+    {
+      "ghost": "Gemelos",
+      "min_speed": 1.53,
+      "max_speed": 1.87,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "50%",
+      "evidence": ["EMF 5", "Spirit Box", "Temperaturas Heladas"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "Suelen interactuar al mismo tiempo",
+        "<Behaviors>",
+        "El señuelo solo hace interacciones/EMF, sin evidencia ni sensores",
+        "<Hunt Speed>",
+        "Velocidad de 1.53m/s o 1.87m/s dependiendo del 'gemelo' que esté cazando"
+      ]
+    },
+    {
+      "ghost": "Raiju",
+      "min_speed": 1.7,
+      "max_speed": 2.5,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "65%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "65%",
+      "evidence": ["EMF 5", "Orbes", "DOTs"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "Durante una cacería, los electrónicos parpadean a un rango de 15m en lugar de 10m",
+        "<Hunt Sanity>",
+        "Puede cazar con cordura al 65% cerca del equipamiento activo del jugador",
+        "<Hunt Speed>",
+        "2.5m/s cerca del equipamiento activo del jugador, 1.7m/s en el resto de casos",
+        "<Evidence>",
+        "EMF 5 + Orbes en modo Pesadilla confirma Raiju"
+      ]
+    },
+    {
+      "ghost": "Obake",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "50%",
+      "evidence": ["EMF 5", "Ultravioleta", "Orbes"],
+      "nightmare_evidence": "Ultravioleta",
+      "behavior": [
+        "<Tells>",
+        "Huellas dactilares especiales de 6 dedos",
+        "Tiene un 6.66% de probabilidad de cambiar el modelo del fantasma cuando parpadea en la cacería (garantizado una vez por cacería, vuelve a su modelo original)",
+        "No siempre deja evidencia Ultravioleta",
+        "Puede hacer desaparecer la evidencia Ultravioleta antes de 2 minutos",
+        "<Evidence>",
+        "Ultravioleta garantizado en modo Pesadilla / Locura"
+      ]
+    },
+    {
+      "ghost": "Mimico",
+      "min_speed": 1.7,
+      "max_speed": null,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "35%",
+      "hunt_sanity_high": "100%",
+      "evidence": ["Spirit Box", "Ultravioleta", "Temperaturas Heladas"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Tells>",
+        "Siempre muestra orbes como evidencia falsa adicional (4ta evidencia) incluso si hay 0 evidencias",
+        "Copia el comportamiento y características de otros fantasmas",
+        "Cambia el comportamiento del fantasma cada 30 segundos a 2 minutos.",
+        "<Hunt Sanity>",
+        "Copia el comportamiento del fantasma imitado",
+        "<Hunt Speed>",
+        "Copia la velocidad del fantasma imitado"
+      ]
+    },
+    {
+      "ghost": "Moroi",
+      "min_speed": 1.5,
+      "max_speed": 2.25,
+      "alt_speed": 3.71,
+      "speed_is_range": 1,
+      "hunt_sanity": "50%",
+      "hunt_sanity_low": "50%",
+      "hunt_sanity_high": "50%",
+      "evidence": ["Spirit Box", "Escritura", "Temperaturas Heladas"],
+      "nightmare_evidence": "Spirit Box",
+      "behavior": [
+        "<Tells>",
+        "Coloca una maldición al jugador cuando se lo escucha a través del micrófono parabólico o la spirit box, la maldición baja la cordura el doble de rápido",
+        "La duración de la ceguera del incienso aumenta un 50% por tier (7.5s, 9s, 10.5s respectivamente)",
+        "<Hunt Speed>",
+        "Rápido cuando la cordura promedio es baja, puede alcanzar una velocidad de 3.71 m/s cuando está en línea de visión",
+        "<Evidence>",
+        "Spirit box garantizada en Pesadilla / Locura"
+      ]
+    },
+    {
+      "ghost": "Deogen",
+      "min_speed": 0.4,
+      "max_speed": 3.0,
+      "alt_speed": null,
+      "speed_is_range": 0,
+      "hunt_sanity": "40%",
+      "hunt_sanity_low": "40%",
+      "hunt_sanity_high": "40%",
+      "evidence": ["Spirit Box", "Escritura", "DOTs"],
+      "nightmare_evidence": "Spirit Box",
+      "behavior": [
+        "<Tells>",
+        "Respiración pesada a través de la spirit box a 1m del fantasma  <span class=\"sound\" onClick=\"playSound('https://zero-network.net/phasmophobia/static/assets/deogen_breathing.wav')\">🔊</span>",
+        "No se puede esconder de un Deogen",
+        "<Behaviors>",
+        "Mayor probabilidad de DOTs / Escritura",
+        "<Hunt Speed>",
+        "3.0m/s cuando está lejos, baja a 0.4m/s cuando está cerca del jugador",
+        "<Evidence>",
+        "Spirit box garantizada en Pesadilla / Locura"
+      ]
+    },
+    {
+      "ghost": "Thaye",
+      "min_speed": 1.0,
+      "max_speed": 2.75,
+      "alt_speed": null,
+      "speed_is_range": 1,
+      "hunt_sanity": "75%",
+      "hunt_sanity_low": "35%",
+      "hunt_sanity_high": "75%",
+      "evidence": ["Orbes", "Escritura", "DOTs"],
+      "nightmare_evidence": null,
+      "behavior": [
+        "<Behaviors>",
+        "Envejece con el paso del tiempo (cada 1-2 minutos) cuando el jugador está cerca",
+        "Más activo cuando es joven",
+        "Mayor probabilidad de DOTs / Escritura",
+        "<Hunt Sanity>",
+        "Caza al 75% cuando es más joven, al 15% cuando es más viejo",
+        "<Hunt Speed>",
+        "2.75m/s cuando es más joven, 1.0m/s cuando es más viejo <b>no acelera en línea de visión</b>",
+        "<Evidence>",
+        "Escritura + DOTs en Pesadilla confirman Thaye"
+      ]
+    }
+  ],
+  "version": "b0.9.0.8",
+  "evidence": [
+    "EMF 5",
+    "DOTs",
+    "Ultravioleta",
+    "Temperaturas Heladas",
+    "Orbes",
+    "Escritura",
+    "Spirit Box"
+  ]
+}
